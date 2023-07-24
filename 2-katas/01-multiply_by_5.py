@@ -1,9 +1,4 @@
-# Complete the function multiply_by_5 which returns the product of the passed number with 5.
-# eg. multiply_by_5(10) => 50
-
-
-
-def multiply_by_5 ():
+def multiply_by_5():
     pass
 
 
