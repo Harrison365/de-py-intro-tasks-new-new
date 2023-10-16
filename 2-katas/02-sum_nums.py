@@ -1,13 +1,14 @@
-def sum_nums():
-    pass
+def sum_nums(*nums):
+    return sum(nums)
 
 
-#tests
+# tests
 def test_sums_single_number():
     expected = 1
     result = sum_nums(1)
 
     assert result == expected
+
 
 def test_sums_two_numbers():
     expected = 3
